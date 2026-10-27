@@ -22,20 +22,8 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My message, and why:
+# 1. In: a string of my favourite color "black"
+# 2. Process: Print the string five times with the color
+# 3. Out: the clolor printed five times, each line numbered
+# 4. My message, and why: wrote a python file to print my favourite color "black"
 
-
-# Your code below
-print("Hello, World!")
-print("Hello, World!")
-print("Hello, World!")
-print("Hello, World!")
-print("Hello, World!")
-print("1.Hello, World!")
-print("2.Hello, World!")
-print("3.Hello, World!")
-print("4.Hello, World!")
-print("5.Hello, World!")

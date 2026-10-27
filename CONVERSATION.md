@@ -17,3 +17,21 @@ print("Hello, world!")
 ```
 
 What is the argument of the `print()` function?
+
+---
+## 2026-10-27 14:26, in .
+
+**Me:** python 2.0_user_input.py
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-10-27 14:26, in .
+
+**Me:** python 2.0_user_input.py Enter your name:Jiayi
+
+**Tutor:**
+
+Refused, off topic.
