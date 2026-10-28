@@ -228,3 +228,31 @@ def safe_divide(a, b):
 ```
 
 What is the name of the operator that performs division in Python?
+
+---
+## 2026-10-28 16:19, in .
+
+**Me:** In Python, how can I ask for an integer N and print whether each number from 1 to N is odd or even? For zero or negative input, I want a message and no loop. For positive input, I want no upper limit, including 5000. Please explain for a beginner.
+
+**Tutor:**
+
+Concept: reading an integer, looping from 1 to N, and checking odd/even with the modulus operator.
+
+```python
+# TODO: ask the user for an integer N
+N = int(input())
+
+# TODO: if N <= 0, print a message and stop
+if N <= 0:
+    print("Please enter a positive integer.")
+else:
+    # TODO: loop from 1 to N inclusive
+    for number in range(1, N + 1):
+        # TODO: check if number is odd or even
+        if number % 2 == 0:
+            print(f"{number} is even")
+        else:
+            print(f"{number} is odd")
+```
+
+Question: Which operator tells you whether a number is odd or even?
