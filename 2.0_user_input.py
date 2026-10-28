@@ -4,7 +4,7 @@ WHAT THE PROGRAM MUST DO
     Ask the user for two pieces of information, then display a sentence that uses both.
 
 ANSWER THESE FIRST, in comments at the top of your file
-    1. What goes in?
+    1. What goes in? 
     2. What happens to it?
     3. What comes out?
     4. Which two pieces of information did you choose, and for what purpose?
@@ -26,16 +26,16 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My two fields, and what I would do with them:
+# 1. In:the customer named Alex want to order 3 skirts
+# 2. Process:joined in Alex and 3 skirts in a same sentence
+# 3. Out:a sentence "Order for Alex: quantity 3 skirts"
+# 4. My two fields, and what I would do with them: Name and quantity, to confirm who ordered the skirts and how many.
 
 
 # Your code below
 name = input("Enter your name:")
-age = input("Enter your age:")
+quantity = int(input("How many skirts would you like to order?"))
 
-print(name)
-print(age)
+print("Order for " + name +": quantity " + str(quantity) + " skirts")
+
 
