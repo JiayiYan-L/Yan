@@ -34,7 +34,7 @@ DELIVERABLE
 
 prices = [200, 220, 300, 180, 185, 190, 280, 255]
 
-# reversed copy of the original list
+# reversed 
 reversed_prices = prices[::-1]
 print("Reversed:", reversed_prices)
 
