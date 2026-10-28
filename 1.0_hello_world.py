@@ -29,5 +29,8 @@ DELIVERABLE
 
 
 # Your code below
+# Print my favourite color five times with line numbers.
 for i in range(1,6):
     print(f"{i}. black")
+
+# Test: changing 6 to 4 printed three lines. Then changed it back to 6.
