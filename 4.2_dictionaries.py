@@ -23,10 +23,45 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My object, my five fields, and why those:
+# 1. In:A dictionary describing a dress with five fields
+# 2. Process:Read the name, update stock, remove size, and display the fields
+# 3. Out:The dress information before and after the changes
+# 4. My object, my five fields, and why those:My object is a jersey dress.
+# name & color & size identifies the product.
+# price records its selling price in euros.
+# stock shows how many units are available.
 
 
 # Your code below
+
+# Create a dictionary describing the dress.
+dress = {
+    "name": "jersey dress",
+    "price": 300,
+    "color": "black",
+    "size": "L",
+    "stock": 20
+}
+
+# printing the dictionary
+print("The dictionary is:", dress)
+print("Product name:", dress["name"])
+
+# Change the stock after selling one dress
+dress["stock"] = 19
+print("After updating stock:", dress)
+
+# Remove the size and display the removed value.
+removed_size = dress.pop("size")
+print("After removing size:", dress)
+print("The removed size is:", removed_size)
+
+# Display each remaining field with its value.
+for field, value in dress.items():
+    print(field, ":", value)
+
+
+print("Material:", dress.get("material", "Not available"))
+
+#test:dress["material"] caused a KeyError because the field was missing.
+#Using get() displayed "Not available" and the program continued
