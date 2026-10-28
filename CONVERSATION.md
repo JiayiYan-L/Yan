@@ -206,3 +206,25 @@ print(format_heading(sample))  # Welcome To Digital Marketing
 ```
 
 What does the title() method do to the string "hello world"?
+
+---
+## 2026-10-28 15:55, in .
+
+**Me:** I have two numbers stored in number_1 and number_2. How can I divide the first by the second and print the result? If the second number is zero, I want to display a warning instead of dividing. Please explain the code for a beginner
+
+**Tutor:**
+
+Concept: Safe division with a check for zero.
+
+```python
+def safe_divide(a, b):
+    if b == 0:
+        print("Warning: Cannot divide by zero.")
+    else:
+        result = a / b
+        print(result)
+
+# TODO: call safe_divide with your numbers here
+```
+
+What is the name of the operator that performs division in Python?

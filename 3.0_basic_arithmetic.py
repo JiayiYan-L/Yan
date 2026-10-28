@@ -27,7 +27,8 @@ DELIVERABLE
 # 1. In:Two numbers entered 
 # 2. Process:Calculate their sum, difference, product, and quotient
 # 3. Out:The results of the four arithmetic operations
-# 4. What happens when the second number is zero, and why:
+# 4. What happens when the second number is zero, and why:If the second number is zero, show a message instead of the division result,
+# because division by zero is undefined
 
 # Your code below
 number_1 = float(input("Enter the first number:"))
@@ -40,10 +41,30 @@ sum = number_1 + number_2
 print("The sum of two numbers is:", sum )
 
 #difference of two numbers
-diff = number_2 - number_1
+diff = number_1 - number_2
 print("the difference between two numbers is:", diff)
 
 #multiplication of two numbers
 product = number_1 * number_2
-print("The division of two numbers is:", division)
+print("The product of two numbers is:", product)
 
+# division of two numbers
+if number_2 == 0:
+    print("Warning: Cannot divide by zero.")
+else:
+    division = number_1/number_2
+    print("The division of two numbers is:", division)
+
+
+#test:Enter the first number:7.0
+#Enter the second number:2.0
+#The sum of two numbers is: 9.0
+#the difference between two numbers is: 5.0
+#The product of two numbers is: 14.0
+#The division of two numbers is: 3.5
+
+#test:Enter the first number:7.0 Enter the second number:0.0
+#The sum of two numbers is: 7.0
+#the difference between two numbers is: 7.0
+#The product of two numbers is: 0.0
+#Warning: Cannot divide by zero.
