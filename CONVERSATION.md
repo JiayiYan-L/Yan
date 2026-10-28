@@ -35,3 +35,36 @@ Refused, off topic.
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-10-28 12:44, in .
+
+**Me:** how to print a string in python
+
+**Tutor:**
+
+Printing a string in Python.
+
+```python
+def print_message():
+    message = "Hello, world!"
+    # TODO: print the message
+```
+
+What function prints a value to the console?
+
+---
+## 2026-10-28 12:52, in .
+
+**Me:** how to print a string five times with each line numbered
+
+**Tutor:**
+
+Printing a string multiple times with line numbers is a loop pattern.
+
+```python
+for i in range(1, 6):
+    print(f"{i}. Your string here")
+```
+
+What does `range(1, 6)` produce?

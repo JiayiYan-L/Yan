@@ -24,6 +24,10 @@ DELIVERABLE
 
 # 1. In: a string of my favourite color "black"
 # 2. Process: Print the string five times with the color
-# 3. Out: the clolor printed five times, each line numbered
-# 4. My message, and why: wrote a python file to print my favourite color "black"
+# 3. Out: the color printed five times, each line numbered
+# 4. My message, and why: wrote a python file to print my favourite color "black" 5 times using print statement and for loop
 
+
+# Your code below
+for i in range(1,6):
+    print(f"{i}. black")
