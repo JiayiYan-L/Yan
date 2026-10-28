@@ -26,7 +26,7 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:the customer named Alex want to order 3 skirts
+# 1. In:The customer's name and order quantity （ Alex; 3 skirts)
 # 2. Process:joined in Alex and 3 skirts in a same sentence
 # 3. Out:a sentence "Order for Alex: quantity 3 skirts"
 # 4. My two fields, and what I would do with them: Name and quantity, to confirm who ordered the skirts and how many.
@@ -36,6 +36,10 @@ DELIVERABLE
 name = input("Enter your name:")
 quantity = int(input("How many skirts would you like to order?"))
 
+
 print("Order for " + name +": quantity " + str(quantity) + " skirts")
 
 
+# Test: an empty quantity caused a ValueError.a quantity containing only a space caused a ValueError.
+# Test: entering aaa as the quantity caused a ValueError.
+# Test: use the print(quantity + 1) code, put in the number of 3 get the result of 4

@@ -167,3 +167,42 @@ def show_quantity(quantity):
 ```
 
 What is the exact operator you use to join two strings with +?
+
+---
+## 2026-10-28 14:50, in .
+
+**Me:** how to Make text uppercase in python
+
+**Tutor:**
+
+Concept: Changing the case of a string to uppercase.
+
+Pattern:
+```python
+def to_uppercase(text):
+    # TODO: use the built-in string method to convert text to uppercase
+    return text.???()
+```
+
+Question: Which string method converts a string to uppercase?
+
+---
+## 2026-10-28 14:56, in .
+
+**Me:** how to use title() to format a heading with capitalized words?
+
+**Tutor:**
+
+Capitalizing words in a string uses the str.title() method.
+
+```python
+def format_heading(text):
+    # TODO: return the text with each word capitalized
+    return text.title()
+
+# Example
+sample = "welcome to digital marketing"
+print(format_heading(sample))  # Welcome To Digital Marketing
+```
+
+What does the title() method do to the string "hello world"?

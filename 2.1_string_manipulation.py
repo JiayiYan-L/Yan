@@ -24,10 +24,28 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My four transformations, and when each is useful:
+# 1. In:A sentence“Python is very complicated“
+# 2. Process:Apply four different text transformations
+# 3. Out:Four different transformed versions of the sentence
+# 4. My four transformations, and when each is useful
+# upper(): Make text uppercase
+# title(): Format a heading with capitalized words.
+# lower(): Make text lowercase
+# replace(): Replace spaces with underscores for a sentence.
 
 
 # Your code below
+
+text = input (" Enter a sentence: ")
+
+print(text.upper())
+print(text.title())
+print(text.lower())
+print(text.replace(" ", "_"))
+
+
+
+#test:upper: All letters became uppercase; spaces remained
+# Test title: Each word started with a capital; spaces remained
+# Test lower: All letters became lowercase; spaces remained
+# Test replace: Every space became an underscore,both the front and the back

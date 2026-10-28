@@ -24,9 +24,9 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
+# 1. In:Two numbers entered 
+# 2. Process:Calculate their sum, difference, product, and quotient
+# 3. Out:The results of the four arithmetic operations
 # 4. What happens when the second number is zero, and why:
 
 # Your code below
